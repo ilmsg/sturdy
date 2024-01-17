@@ -10,6 +10,7 @@ defmodule Sturdy.Application do
     children = [
       # Starts a worker by calling: Sturdy.Worker.start_link(arg)
       # {Sturdy.Worker, arg}
+      Sturdy.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
