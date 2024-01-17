@@ -1,0 +1,3 @@
+%{
+  "cautious": {:git, "https://github.com/ilmsg/cautious.git", "46427a6edcc6897cba77d2bb373e9aac5e096444", [tag: "0.1.0"]},
+}
